@@ -10,5 +10,7 @@
 #import <Foundation/Foundation.h>
 
 @interface InterfaceController : WKInterfaceController
+@property (unsafe_unretained, nonatomic) IBOutlet WKInterfaceTable *tableView;
 
+- (void)table:(WKInterfaceTable *)table didSelectRowAtIndex:(NSInteger)rowIndex;
 @end

@@ -20,6 +20,8 @@
 		9B8C907A1C9ECD4200C86407 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C90791C9ECD4200C86407 /* InterfaceController.m */; };
 		9B8C907D1C9ECD4200C86407 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C907C1C9ECD4200C86407 /* ExtensionDelegate.m */; };
 		9B8C907F1C9ECD4200C86407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C907E1C9ECD4200C86407 /* Assets.xcassets */; };
+		9B8C90921C9F0A5F00C86407 /* ContactRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C908F1C9F0A1200C86407 /* ContactRow.m */; };
+		9B8C90931C9F0A8600C86407 /* ContactRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C908F1C9F0A1200C86407 /* ContactRow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		9B8C907C1C9ECD4200C86407 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		9B8C907E1C9ECD4200C86407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B8C90801C9ECD4200C86407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B8C908E1C9F0A1200C86407 /* ContactRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactRow.h; path = "../Contacts WatchKit App/ContactRow.h"; sourceTree = "<group>"; };
+		9B8C908F1C9F0A1200C86407 /* ContactRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactRow.m; path = "../Contacts WatchKit App/ContactRow.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,8 @@
 		9B8C90771C9ECD4200C86407 /* Contacts WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				9B8C908E1C9F0A1200C86407 /* ContactRow.h */,
+				9B8C908F1C9F0A1200C86407 /* ContactRow.m */,
 				9B8C90781C9ECD4200C86407 /* InterfaceController.h */,
 				9B8C90791C9ECD4200C86407 /* InterfaceController.m */,
 				9B8C907B1C9ECD4200C86407 /* ExtensionDelegate.h */,
@@ -307,6 +313,7 @@
 				9B8C90581C9ECD4100C86407 /* ViewController.m in Sources */,
 				9B8C90551C9ECD4100C86407 /* AppDelegate.m in Sources */,
 				9B8C90521C9ECD4100C86407 /* main.m in Sources */,
+				9B8C90921C9F0A5F00C86407 /* ContactRow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B8C90931C9F0A8600C86407 /* ContactRow.m in Sources */,
 				9B8C907D1C9ECD4200C86407 /* ExtensionDelegate.m in Sources */,
 				9B8C907A1C9ECD4200C86407 /* InterfaceController.m in Sources */,
 			);
