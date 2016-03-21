@@ -32,7 +32,49 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-76" y="201"/>
+            <point key="canvasLocation" x="-112" y="152"/>
+        </scene>
+        <!--ShowContactDetails-->
+        <scene sceneID="AQj-e8-Kve">
+            <objects>
+                <controller identifier="ShowContactDetails" id="Ptx-dn-bPH" customClass="ContactDetailsInterfaceController">
+                    <items>
+                        <group width="1" alignment="left" id="evg-5w-bGW">
+                            <items>
+                                <imageView width="35" height="35" alignment="left" verticalAlignment="center" id="Gjl-KS-Xi8"/>
+                                <label alignment="left" verticalAlignment="center" text="Label" numberOfLines="3" id="egq-8K-c2d"/>
+                            </items>
+                        </group>
+                        <label alignment="left" text="Label" id="K2c-3Q-8aU"/>
+                        <separator alignment="left" id="dnw-qh-1kT"/>
+                        <table alignment="left" id="Rp2-il-bb1">
+                            <items>
+                                <tableRow identifier="PostalAddressRow" id="8LK-Uf-Dp6" customClass="PostalAdressRow">
+                                    <group key="rootItem" width="1" height="0.0" alignment="left" layout="vertical" id="RKz-Vd-u3p">
+                                        <items>
+                                            <label alignment="left" text="Label" id="Lo2-4e-Ujt">
+                                                <fontDescription key="font" style="UICTFontTextStyleSubhead"/>
+                                            </label>
+                                            <label alignment="left" text="Label" numberOfLines="5" id="371-v2-pOf"/>
+                                        </items>
+                                    </group>
+                                    <connections>
+                                        <outlet property="locationAddress" destination="371-v2-pOf" id="Xcc-hA-5Mz"/>
+                                        <outlet property="locationName" destination="Lo2-4e-Ujt" id="pTe-ee-o0w"/>
+                                    </connections>
+                                </tableRow>
+                            </items>
+                        </table>
+                    </items>
+                    <connections>
+                        <outlet property="name" destination="egq-8K-c2d" id="kDb-LP-D4P"/>
+                        <outlet property="organisationName" destination="K2c-3Q-8aU" id="KhX-Af-nHf"/>
+                        <outlet property="picture" destination="Gjl-KS-Xi8" id="06k-DV-3Ei"/>
+                        <outlet property="tableView" destination="Rp2-il-bb1" id="g4Y-GA-uOf"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="128" y="280"/>
         </scene>
     </scenes>
 </document>

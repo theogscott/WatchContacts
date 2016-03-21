@@ -22,6 +22,8 @@
 		9B8C907F1C9ECD4200C86407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B8C907E1C9ECD4200C86407 /* Assets.xcassets */; };
 		9B8C90921C9F0A5F00C86407 /* ContactRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C908F1C9F0A1200C86407 /* ContactRow.m */; };
 		9B8C90931C9F0A8600C86407 /* ContactRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B8C908F1C9F0A1200C86407 /* ContactRow.m */; };
+		9BB25D051CA03117009C9435 /* PostalAdressRow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB25D041CA03117009C9435 /* PostalAdressRow.m */; };
+		9BB25D081CA033B9009C9435 /* ContactDetailsInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB25D071CA033B9009C9435 /* ContactDetailsInterfaceController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,10 @@
 		9B8C90801C9ECD4200C86407 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B8C908E1C9F0A1200C86407 /* ContactRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContactRow.h; path = "../Contacts WatchKit App/ContactRow.h"; sourceTree = "<group>"; };
 		9B8C908F1C9F0A1200C86407 /* ContactRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContactRow.m; path = "../Contacts WatchKit App/ContactRow.m"; sourceTree = "<group>"; };
+		9BB25D031CA03117009C9435 /* PostalAdressRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostalAdressRow.h; sourceTree = "<group>"; };
+		9BB25D041CA03117009C9435 /* PostalAdressRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostalAdressRow.m; sourceTree = "<group>"; };
+		9BB25D061CA033B9009C9435 /* ContactDetailsInterfaceController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactDetailsInterfaceController.h; sourceTree = "<group>"; };
+		9BB25D071CA033B9009C9435 /* ContactDetailsInterfaceController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactDetailsInterfaceController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +181,10 @@
 				9B8C907C1C9ECD4200C86407 /* ExtensionDelegate.m */,
 				9B8C907E1C9ECD4200C86407 /* Assets.xcassets */,
 				9B8C90801C9ECD4200C86407 /* Info.plist */,
+				9BB25D031CA03117009C9435 /* PostalAdressRow.h */,
+				9BB25D061CA033B9009C9435 /* ContactDetailsInterfaceController.h */,
+				9BB25D071CA033B9009C9435 /* ContactDetailsInterfaceController.m */,
+				9BB25D041CA03117009C9435 /* PostalAdressRow.m */,
 			);
 			path = "Contacts WatchKit Extension";
 			sourceTree = "<group>";
@@ -321,7 +331,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BB25D081CA033B9009C9435 /* ContactDetailsInterfaceController.m in Sources */,
 				9B8C90931C9F0A8600C86407 /* ContactRow.m in Sources */,
+				9BB25D051CA03117009C9435 /* PostalAdressRow.m in Sources */,
 				9B8C907D1C9ECD4200C86407 /* ExtensionDelegate.m in Sources */,
 				9B8C907A1C9ECD4200C86407 /* InterfaceController.m in Sources */,
 			);
@@ -549,6 +561,7 @@
 				9B8C90851C9ECD4200C86407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B8C90871C9ECD4200C86407 /* Build configuration list for PBXNativeTarget "Contacts WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +570,7 @@
 				9B8C90891C9ECD4200C86407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9B8C908B1C9ECD4200C86407 /* Build configuration list for PBXNativeTarget "Contacts" */ = {
 			isa = XCConfigurationList;
@@ -565,6 +579,7 @@
 				9B8C908D1C9ECD4200C86407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
